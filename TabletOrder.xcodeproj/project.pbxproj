@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A452AD041AE3FE44001014D7 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A452AD031AE3FE44001014D7 /* DataModel.swift */; };
+		A48E92AB1AE4114300DE9008 /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E92AA1AE4114300DE9008 /* CheckViewController.swift */; };
+		A48E92AD1AE4117700DE9008 /* OrderLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E92AC1AE4117700DE9008 /* OrderLogViewController.swift */; };
 		A4E088381ADFAC6800E08DA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E088371ADFAC6800E08DA7 /* AppDelegate.swift */; };
 		A4E0883A1ADFAC6800E08DA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E088391ADFAC6800E08DA7 /* ViewController.swift */; };
 		A4E0883D1ADFAC6800E08DA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E0883B1ADFAC6800E08DA7 /* Main.storyboard */; };
 		A4E0883F1ADFAC6800E08DA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E0883E1ADFAC6800E08DA7 /* Images.xcassets */; };
 		A4E088421ADFAC6800E08DA7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E088401ADFAC6800E08DA7 /* LaunchScreen.xib */; };
 		A4E0884E1ADFAC6800E08DA7 /* TabletOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E0884D1ADFAC6800E08DA7 /* TabletOrderTests.swift */; };
+		A4E088581ADFB1C100E08DA7 /* CellClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E088571ADFB1C100E08DA7 /* CellClass.swift */; };
+		A4E0885B1ADFBF2100E08DA7 /* IMG_2300.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A4E0885A1ADFBF2100E08DA7 /* IMG_2300.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A452AD031AE3FE44001014D7 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		A48E92AA1AE4114300DE9008 /* CheckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
+		A48E92AC1AE4117700DE9008 /* OrderLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderLogViewController.swift; sourceTree = "<group>"; };
 		A4E088321ADFAC6800E08DA7 /* TabletOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabletOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E088361ADFAC6800E08DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4E088371ADFAC6800E08DA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +44,8 @@
 		A4E088471ADFAC6800E08DA7 /* TabletOrderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabletOrderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E0884C1ADFAC6800E08DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4E0884D1ADFAC6800E08DA7 /* TabletOrderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletOrderTests.swift; sourceTree = "<group>"; };
+		A4E088571ADFB1C100E08DA7 /* CellClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellClass.swift; sourceTree = "<group>"; };
+		A4E0885A1ADFBF2100E08DA7 /* IMG_2300.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2300.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +87,17 @@
 		A4E088341ADFAC6800E08DA7 /* TabletOrder */ = {
 			isa = PBXGroup;
 			children = (
+				A4E088591ADFBEF500E08DA7 /* icons */,
 				A4E088371ADFAC6800E08DA7 /* AppDelegate.swift */,
+				A4E088571ADFB1C100E08DA7 /* CellClass.swift */,
 				A4E088391ADFAC6800E08DA7 /* ViewController.swift */,
 				A4E0883B1ADFAC6800E08DA7 /* Main.storyboard */,
 				A4E0883E1ADFAC6800E08DA7 /* Images.xcassets */,
 				A4E088401ADFAC6800E08DA7 /* LaunchScreen.xib */,
 				A4E088351ADFAC6800E08DA7 /* Supporting Files */,
+				A452AD031AE3FE44001014D7 /* DataModel.swift */,
+				A48E92AA1AE4114300DE9008 /* CheckViewController.swift */,
+				A48E92AC1AE4117700DE9008 /* OrderLogViewController.swift */,
 			);
 			path = TabletOrder;
 			sourceTree = "<group>";
@@ -110,6 +125,14 @@
 				A4E0884C1ADFAC6800E08DA7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4E088591ADFBEF500E08DA7 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				A4E0885A1ADFBF2100E08DA7 /* IMG_2300.JPG */,
+			);
+			name = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E0885B1ADFBF2100E08DA7 /* IMG_2300.JPG in Resources */,
 				A4E0883D1ADFAC6800E08DA7 /* Main.storyboard in Resources */,
 				A4E088421ADFAC6800E08DA7 /* LaunchScreen.xib in Resources */,
 				A4E0883F1ADFAC6800E08DA7 /* Images.xcassets in Resources */,
@@ -212,7 +236,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E088581ADFB1C100E08DA7 /* CellClass.swift in Sources */,
+				A452AD041AE3FE44001014D7 /* DataModel.swift in Sources */,
 				A4E0883A1ADFAC6800E08DA7 /* ViewController.swift in Sources */,
+				A48E92AB1AE4114300DE9008 /* CheckViewController.swift in Sources */,
+				A48E92AD1AE4117700DE9008 /* OrderLogViewController.swift in Sources */,
 				A4E088381ADFAC6800E08DA7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +439,7 @@
 				A4E088531ADFAC6800E08DA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4E088541ADFAC6800E08DA7 /* Build configuration list for PBXNativeTarget "TabletOrderTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +448,7 @@
 				A4E088561ADFAC6800E08DA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
